@@ -52,3 +52,57 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+#My submission**
+Developer Environment Setup Document
+
+1)Operating System: Windows 11
+
+Download and Install Windows 11:
+Visit Microsoft's official website.
+Follow the on-screen instructions to download the Windows 11 installation tool.
+Run the tool and upgrade/install Windows 11 on your system.
+
+2)Text Editor/IDE: Visual Studio Code
+Download and Install Visual Studio Code:
+Go to VS Code website.
+Choose the appropriate installer for Windows.
+Run the installer and follow the setup wizard instructions.
+
+3)Version Control System: Git and GitHub
+Install Git:
+
+Download Git from Git website.
+Run the installer and follow the setup wizard instructions.
+Open Git Bash or command prompt to verify installation:git --version
+
+configure Git:
+Set your username and email globally:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+GitHub Setup:
+Create a GitHub account at GitHub.
+Create a new repository on GitHub (myproject).
+Initialize a Git repository locally and push to GitHub:
+git init
+echo "# My Project" >> README.md
+git add README.md
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/myproject.git
+git branch -M main
+git push -u origin main
+
+4)Install Python:
+Download Python from Python website.
+Run the installer and select "Add Python to PATH" during installation.
+Verify installation:python --version
+
+5)Install MySQL:
+Download MySQL from MySQL website.
+Follow the installer instructions to install MySQL Server and MySQL Workbench.
+
+6)Explore Extensions:
+Open Visual Studio Code.
+Go to Extensions marketplace (Ctrl+Shift+X).
+Search and install extensions for Python, Git integration, MySQL, Docker
